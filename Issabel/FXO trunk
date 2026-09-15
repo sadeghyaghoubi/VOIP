@@ -1,0 +1,19 @@
+issabel :
+name: test
+
+peers:
+host=ip gateway
+type= peer
+insecure=port,invite
+qualify= yes
+port= 5060
+
+
+==================================
+Gateway newrock:
+Set IP static
+Trunk --> feature --> FXO1 --> phone number:mokhaberat number , inbound handing: bounding , number: mokhaberat number , callerID.. , echo detection enable
+
+routing --> routing table:
+ipx route fxo 1-2/R
+save and restart
