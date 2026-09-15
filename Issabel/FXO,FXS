@@ -1,0 +1,7 @@
+FXS :
+voice from internet
+SIP From shatel or fiber or pishgaman,....  --> server issabel -->  GATEWAY FXS -- > analog telephon
+
+
+FXO :
+voice from analog (mokhaberat RJ11) --> GATEWAY FXO --> Server issabel --> software phone or yealink or ...
