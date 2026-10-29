@@ -1,17 +1,26 @@
-issabel :
-name: test
+estefade az wan bejaye lan
+
+
+add sip trunk issabel :
+name: Sip-Newrock
 
 peers:
-host=ip gateway
+host=ip Nerock
 type= peer
+context= from-trunk
 insecure=port,invite
 qualify= yes
 port= 5060
 
-
+======================
+tools issabel : 
+asterisk cli : sip sow peers
 ==================================
 Gateway newrock:
 Set IP static
+Basic > SIP >  Proxy Server= ip issabel:port
+Basic > SIP >  register server Server= ip issabel
+Basic > SIP >  register Mode : per line
 Trunk --> feature --> FXO1 --> phone number:mokhaberat number , inbound handing: bounding , number: mokhaberat number , callerID.. , echo detection enable
 
 routing --> routing table:
